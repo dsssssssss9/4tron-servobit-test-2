@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(100)
     for (let index = -90; index <= 90; index++) {
         ServoBit.moveServo(0, index, 1)
-        basic.pause(100)
+        
     }
 })
 ServoBit.ledClear()
